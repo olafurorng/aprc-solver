@@ -10,7 +10,7 @@ by using binary search. This solver assumes that
 all the loan is paid out in the beginning of the
 loan time so the formula can be simplified into:
 
-![APRC simplified formula](aprc_full_formula.png?raw=true "APRC simplified formula")
+![APRC simplified formula](aprc_simplified_formula.png?raw=true "APRC simplified formula")
 
 
 ## Usage
@@ -19,7 +19,7 @@ loan time so the formula can be simplified into:
 import { calcAprc } from 'aprc-solver'
 
 const monthlyPayments = [110, 107, 105, 102];
-const s = 380;
+const s = 380; // user gets 380 money into his pocket
 
 const aprc = calcAprc(monthlyPayments, s)
 ```
@@ -47,3 +47,10 @@ ATTRIBUTES:
 
 
 ## Inspiration
+An APRC solver was needed for the [consumer loans comparison on Aurbjörg.is](https://aurbjorg.is/)
+and it wasn't possible to find open source NPM
+package to calculate APRC from the APRC formula.
+
+This package is published to increase transparency
+for the calculation on [Aurbjörg.is](https://aurbjorg.is/) and for other
+to use as open source code to solve APRC is lacking.
