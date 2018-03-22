@@ -43,7 +43,7 @@ calcAprcWithBinarySearch = function(payments, s, minValue, maxValue, iterationLv
   }
 
   const leftSideOfTheEquation = s;
-  let rightSideOfTheEquation = 0.0;
+  var rightSideOfTheEquation = 0.0;
   for (var i = 0; i < payments.length; i++) {
     const Ak = payments[i];
     rightSideOfTheEquation += Ak * Math.pow(1+ aprc, -(i+1.0) / 12.0);;

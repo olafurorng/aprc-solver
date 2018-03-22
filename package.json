@@ -1,6 +1,6 @@
 {
   "name": "aprc-solver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "APRC solver",
   "main": "index.js",
   "scripts": {
