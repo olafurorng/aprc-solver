@@ -1,5 +1,6 @@
 # APRC Solver
 *Licence: GNU GENERAL PUBLIC LICENSE (see `LICENCE` document) - No liability of usage*
+
 *Author: Olafur Orn Gudmundsson*
 
 APRC solver solves APRC out of the APRC formula (i.e. the X variable)

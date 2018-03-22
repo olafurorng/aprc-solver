@@ -1,6 +1,6 @@
 {
   "name": "aprc-solver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "APRC solver",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "solver"
   ],
   "author": "Olafur Orn Gudmundsson",
-  "license": "ISC",
+  "license": "GNU General Public License",
   "bugs": {
     "url": "https://github.com/olafurorng/aprc-solver/issues"
   },
