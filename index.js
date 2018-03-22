@@ -20,7 +20,7 @@ const MAX_ITERATIONS = 50;
  * @return value between 0 and 1 (the APRC)
  *         rounded to the fourth decimal place
  */
-export function calcAprc(payments, s) {
+exports.calcAprc = function(payments, s) {
   return calcAprcWithBinarySearch(payments, s, 0.0, 1.0, 0)
 }
 
@@ -28,7 +28,7 @@ export function calcAprc(payments, s) {
  * minValue = minimum possible aprc
  * maxValue = maximum possible aprc
 */
-function calcAprcWithBinarySearch(payments, s, minValue, maxValue, iterationLvl) {
+calcAprcWithBinarySearch = function(payments, s, minValue, maxValue, iterationLvl) {
   // check if the interval is zero or less than certain decimal places
   if ((maxValue - minValue) < 0.0001) { // rounded to the fourth decimal place
     return minValue;
