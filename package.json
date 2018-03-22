@@ -1,0 +1,23 @@
+{
+  "name": "aprc-solver",
+  "version": "0.0.1",
+  "description": "APRC solver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olafurorng/aprc-solver.git"
+  },
+  "keywords": [
+    "aprc",
+    "solver"
+  ],
+  "author": "Olafur Orn Gudmundsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olafurorng/aprc-solver/issues"
+  },
+  "homepage": "https://github.com/olafurorng/aprc-solver#readme"
+}
