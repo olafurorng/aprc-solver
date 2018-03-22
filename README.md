@@ -3,6 +3,10 @@
 
 *Author: Olafur Orn Gudmundsson*
 
+NPM package: [https://www.npmjs.com/package/aprc-solver](https://www.npmjs.com/package/aprc-solver)
+
+## About APRC Solver
+
 APRC solver solves APRC out of the APRC formula (i.e. the X variable)
 
 ![APRC formula](aprc_full_formula.png?raw=true "APRC formula")
